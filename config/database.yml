@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+
+development:
+  <<: *default
+  database: sugar_tracker_development
+  host: db
+  port: 5432
+
+test:
+  <<: *default
+  database: sugar_tracker_test
+  username: postgres
+  password: password
+  host: db
+  port: 5432
+
+production:
+  <<: *default
+  database: sugar_tracker_production
+  username: sugar_tracker
+  password: <%= ENV['SUGAR_TRACKER_DATABASE_PASSWORD'] %>
