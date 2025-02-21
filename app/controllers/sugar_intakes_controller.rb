@@ -1,0 +1,2 @@
+class SugarIntakesController < ApplicationController
+end

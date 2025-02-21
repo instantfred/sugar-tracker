@@ -1,0 +1,2 @@
+class SugarIntake < ApplicationRecord
+end

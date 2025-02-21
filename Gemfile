@@ -46,6 +46,7 @@ gem 'chartkick', '~> 4.2' # Para gráficos de tendencias
 gem 'groupdate', '~> 6.1' # Para agrupar datos por fecha
 gem 'bootstrap', '~> 5.3' # Para diseño responsive
 gem 'sassc-rails' # Motor de sass
+gem 'cssbundling-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
