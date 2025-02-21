@@ -42,7 +42,7 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'devise', '~> 4.9' # Para autenticación de usuarios
-gem 'chartkick', '~> 4.2' # Para gráficos de tendencias
+gem 'chartkick', '~> 5.1' # Para gráficos de tendencias
 gem 'groupdate', '~> 6.1' # Para agrupar datos por fecha
 gem 'bootstrap', '~> 5.3' # Para diseño responsive
 gem 'sassc-rails' # Motor de sass
